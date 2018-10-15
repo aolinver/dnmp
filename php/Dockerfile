@@ -170,8 +170,8 @@ RUN pecl install mongodb \
 # clean cache
 RUN rm -rf /var/cache/apk/*
 
-# install Composer
-RUN /usr/local/bin/php -r "copy('https://install.phpcomposer.com/installer', 'composer-setup.php');" \
+# install Composer and add china mirror
+RUN /usr/local/bin/php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
     && php composer-setup.php \
     && php -r "unlink('composer-setup.php');" \
     && mv composer.phar /bin/composer \
