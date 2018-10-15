@@ -1,7 +1,7 @@
 version: "3"
 services:
   nginx:
-    image: nginx:stable-alpine
+    build: ./build/nginx
     container_name: dnginx
     restart: unless-stopped
     ports:
@@ -16,7 +16,7 @@ services:
       - net-php
 
   php:
-    build: ./php/
+    build: ./build/php/
     container_name: dphp
     restart: unless-stopped
     expose:
@@ -32,7 +32,7 @@ services:
       - net-redis
 
   mysql:
-    image: mysql:5.7
+    build: ./build/mysql
     container_name: dmysql
     restart: unless-stopped
     ports:
@@ -46,7 +46,7 @@ services:
       MYSQL_ROOT_PASSWORD: "123456"
 
   redis:
-    image: redis:alpine
+    build: ./build/redis
     container_name: dredis
     restart: unless-stopped
     ports:

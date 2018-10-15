@@ -4,7 +4,9 @@ FROM php:7-fpm-alpine
 RUN cp /etc/apk/repositories /etc/apk/repositories.bak \
 	&& echo "http://mirrors.aliyun.com/alpine/v3.7/main/" > /etc/apk/repositories \
 	&& echo "http://mirrors.aliyun.com/alpine/v3.7/community/" >> /etc/apk/repositories \
-	&& apk update \
+	&& apk add -U --no-cache tzdata \
+    && cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
+    && apk del tzdata \
 	&& apk -U --no-cache add \
         # install pecl extensions dependent
         gcc \
