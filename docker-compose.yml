@@ -54,7 +54,7 @@ services:
     networks:
       - net-redis
     volumes:
-    - ./conf/redis.conf:/etc/redis.conf:ro
+    - ./conf/redis/redis.conf:/etc/redis/redis.conf:ro
     - ./log/redis/:/var/log/redis/:rw
     - ./data/redis/:/data/:rw
 
