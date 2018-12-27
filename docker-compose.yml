@@ -9,7 +9,7 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - ../code:/var/www/html
+      - ./code:/var/www/html
       - ./conf/nginx/nginx.conf:/etc/nginx/nginx.conf
       - ./conf/nginx/conf.d:/etc/nginx/conf.d
       - ./logs/nginx/:/var/log/nginx
@@ -26,7 +26,7 @@ services:
     container_name: dev_php56
     restart: unless-stopped
     volumes:
-      - ../code:/var/www/html
+      - ./code:/var/www/html
       - ./conf/php/php56/php/php.ini:/usr/local/etc/php/php.ini
       - ./conf/php/php56/php/conf.d:/usr/local/etc/php/conf.d
       - ./conf/php/php56/php-fpm.conf:/usr/local/etc/php-fpm.conf
@@ -43,7 +43,7 @@ services:
     container_name: dev_php70
     restart: unless-stopped
     volumes:
-      - ../code:/var/www/html
+      - ./code:/var/www/html
       - ./conf/php/php70/php/php.ini:/usr/local/etc/php/php.ini
       - ./conf/php/php70/php/conf.d:/usr/local/etc/php/conf.d
       - ./conf/php/php70/php-fpm.conf:/usr/local/etc/php-fpm.conf
@@ -60,7 +60,7 @@ services:
     container_name: dev_php71
     restart: unless-stopped
     volumes:
-      - ../code:/var/www/html
+      - ./code:/var/www/html
       - ./conf/php/php71/php/php.ini:/usr/local/etc/php/php.ini
       - ./conf/php/php71/php/conf.d:/usr/local/etc/php/conf.d
       - ./conf/php/php71/php-fpm.conf:/usr/local/etc/php-fpm.conf
@@ -77,7 +77,7 @@ services:
     container_name: dev_php72
     restart: unless-stopped
     volumes:
-      - ../code:/var/www/html
+      - ./code:/var/www/html
       - ./conf/php/php72/php/php.ini:/usr/local/etc/php/php.ini
       - ./conf/php/php72/php/conf.d:/usr/local/etc/php/conf.d
       - ./conf/php/php72/php-fpm.conf:/usr/local/etc/php-fpm.conf
@@ -94,7 +94,7 @@ services:
     container_name: dev_php73
     restart: unless-stopped
     volumes:
-      - ../code:/var/www/html
+      - ./code:/var/www/html
       - ./conf/php/php73/php/php.ini:/usr/local/etc/php/php.ini
       - ./conf/php/php73/php/conf.d:/usr/local/etc/php/conf.d
       - ./conf/php/php73/php-fpm.conf:/usr/local/etc/php-fpm.conf
