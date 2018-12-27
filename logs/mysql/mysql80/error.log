@@ -1,0 +1,610 @@
+2018-12-26T06:48:55.334515Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:48:55.336631Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:48:55.340930Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:48:55.343096Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:48:55.343267Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:48:55.344606Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:48:57.141880Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:48:57.142190Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:48:57.151377Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:48:57.159495Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:48:57.160008Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:48:57.161294Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:49:00.970056Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:49:00.974733Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:49:01.005684Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:49:01.010227Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:49:01.010434Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:49:01.011754Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:49:06.048313Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:49:06.048639Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:49:06.057510Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:49:06.061938Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:49:06.062542Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:49:06.064208Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:49:10.152874Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:49:10.175740Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:49:10.192056Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:49:10.194036Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:49:10.194204Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:49:10.195245Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:49:12.885944Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:49:12.886486Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:49:12.897502Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:49:12.898689Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:49:12.898772Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:49:12.900159Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:49:16.898560Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:49:16.898988Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:49:16.902267Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:49:16.903595Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:49:16.903803Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:49:16.904920Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:49:24.045396Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:49:24.045776Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:49:24.049159Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:49:24.050805Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:49:24.050964Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:49:24.052240Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:49:37.601355Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:49:37.601806Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:49:37.605160Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:49:37.606717Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:49:37.606840Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:49:37.608096Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:50:04.308215Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:50:04.308646Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:50:04.312830Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:50:04.317444Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:50:04.319416Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:50:04.323501Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:50:56.374780Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:50:56.375292Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:50:56.379688Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:50:56.381517Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:50:56.381715Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:50:56.382930Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:51:57.122071Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:51:57.122464Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:51:57.126185Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:51:57.128336Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:51:57.128508Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:51:57.129654Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:52:57.878298Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:52:57.878780Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:52:57.882979Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:52:57.886184Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:52:57.886525Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:52:57.888748Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:53:58.820281Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:53:58.820724Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:53:58.824896Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:53:58.827854Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:53:58.828118Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:53:58.829400Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:54:59.598897Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:54:59.599354Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:54:59.603406Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:54:59.605160Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:54:59.605340Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:54:59.606509Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:56:00.383350Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:56:00.383785Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 29
+2018-12-26T06:56:00.387660Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:56:00.391398Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:56:00.391659Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:56:00.392910Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:57:01.230718Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:57:01.231059Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:57:01.234926Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:57:01.237692Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:57:01.237851Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:57:01.240288Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:57:02.520965Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:57:02.521407Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:57:02.524667Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:57:02.525939Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:57:02.526054Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:57:02.527155Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:57:03.907602Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:57:03.907940Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 29
+2018-12-26T06:57:03.914568Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:57:03.916123Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:57:03.916244Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:57:03.917571Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:57:05.806827Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:57:05.807157Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:57:05.811328Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:57:05.813259Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:57:05.813367Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:57:05.814551Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:57:09.974630Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:57:09.983662Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 31
+2018-12-26T06:57:10.003020Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:57:10.006313Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:57:10.006455Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:57:10.007608Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:57:13.768320Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:57:13.786196Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:57:13.836746Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:57:13.851509Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:57:13.851965Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:57:13.854472Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:57:18.358290Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:57:18.365192Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:57:18.398885Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:57:18.407923Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:57:18.409365Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:57:18.438146Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:57:22.598444Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:57:22.598799Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:57:22.602186Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:57:22.603829Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:57:22.604036Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:57:22.605206Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:57:29.899215Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:57:29.899685Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 29
+2018-12-26T06:57:29.903691Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:57:29.905721Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:57:29.906053Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:57:29.907794Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:57:43.499766Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:57:43.500394Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 29
+2018-12-26T06:57:43.504427Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:57:43.507292Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:57:43.507558Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:57:43.508900Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:58:09.997136Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:58:09.997555Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:58:10.000964Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:58:10.002385Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:58:10.002521Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:58:10.004352Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T06:59:02.019761Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T06:59:02.020761Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T06:59:02.024679Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T06:59:02.027604Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T06:59:02.027831Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T06:59:02.029099Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T07:00:02.756746Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T07:00:02.757050Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T07:00:02.760513Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T07:00:02.762119Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T07:00:02.762270Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T07:00:02.763571Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T07:01:03.486127Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T07:01:03.486627Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T07:01:03.490672Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T07:01:03.493450Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T07:01:03.493676Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T07:01:03.494953Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T07:02:04.375638Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T07:02:04.375962Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T07:02:04.379838Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T07:02:04.382930Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T07:02:04.383225Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T07:02:04.384618Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T07:03:05.107135Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T07:03:05.107678Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T07:03:05.111757Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T07:03:05.114636Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T07:03:05.114889Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T07:03:05.116315Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T07:04:05.991959Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T07:04:05.992302Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T07:04:05.995661Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T07:04:05.997226Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T07:04:05.997361Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T07:04:05.998594Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T07:05:06.889900Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T07:05:06.890367Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 29
+2018-12-26T07:05:06.895460Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T07:05:06.896904Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T07:05:06.897113Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T07:05:06.898987Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T07:06:07.770852Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T07:06:07.771310Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T07:06:07.775387Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T07:06:07.777157Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T07:06:07.777358Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T07:06:07.778568Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T07:07:08.720102Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T07:07:08.720450Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T07:07:08.724371Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T07:07:08.728256Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T07:07:08.728553Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T07:07:08.729725Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T07:08:09.453858Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T07:08:09.454336Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T07:08:09.458349Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T07:08:09.461160Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T07:08:09.461397Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T07:08:09.462612Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T07:09:10.198855Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T07:09:10.199255Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 29
+2018-12-26T07:09:10.202696Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T07:09:10.205552Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T07:09:10.205824Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T07:09:10.207138Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T07:10:10.953563Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T07:10:10.953896Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T07:10:10.957151Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T07:10:10.959783Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T07:10:10.959926Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T07:10:10.961123Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T08:03:54.844302Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T08:03:54.845160Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T08:04:08.476844Z 5 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2018-12-26T08:04:18.395405Z 0 [System] [MY-013170] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server has completed
+2018-12-26T08:04:21.734056Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T08:04:21.735392Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 79
+mbind: Operation not permitted
+2018-12-26T08:04:24.366039Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-12-26T08:04:24.396190Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-12-26T08:04:24.531621Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+2018-12-26T08:04:24.553398Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock'
+2018-12-26T08:04:45.091822Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T08:04:45.687486Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T08:04:45.688339Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2018-12-26T08:04:47.152819Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-12-26T08:04:47.188927Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-12-26T08:04:47.241119Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2018-12-26T08:04:47.352848Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2018-12-26T08:51:01.672294Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T08:51:01.674816Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2018-12-26T08:51:03.897922Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2018-12-26T08:51:03.913923Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2018-12-26T08:51:04.066354Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-12-26T08:51:04.085728Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-12-26T08:51:04.118272Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T08:51:04.118756Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T08:51:04.119285Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T08:51:04.119714Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T08:51:04.120203Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T08:51:04.120643Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T08:51:04.121227Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T08:51:04.131976Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T08:51:04.132514Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T08:51:04.145143Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2018-12-26T08:51:04.354868Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2018-12-26T09:24:35.065427Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:24:35.068744Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2018-12-26T09:24:35.074501Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+mysqld: File './binlog.index' not found (OS errno 13 - Permission denied)
+2018-12-26T09:24:35.086297Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T09:24:35.089331Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T09:24:36.965213Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:24:36.965729Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2018-12-26T09:24:36.973540Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+mysqld: File './binlog.index' not found (OS errno 13 - Permission denied)
+2018-12-26T09:24:36.976711Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T09:24:36.977635Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T09:24:38.748096Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:24:38.751636Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2018-12-26T09:24:38.756902Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+mysqld: File './binlog.index' not found (OS errno 13 - Permission denied)
+2018-12-26T09:24:38.758965Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T09:24:38.760142Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T09:24:40.771542Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:24:40.772237Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2018-12-26T09:24:40.779799Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+mysqld: File './binlog.index' not found (OS errno 13 - Permission denied)
+2018-12-26T09:24:40.782129Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T09:24:40.787048Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T09:24:43.000356Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:24:43.009237Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2018-12-26T09:24:43.017138Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+mysqld: File './binlog.index' not found (OS errno 13 - Permission denied)
+2018-12-26T09:24:43.019925Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T09:24:43.021335Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T09:24:45.853154Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:24:45.853378Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2018-12-26T09:24:45.858680Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+mysqld: File './binlog.index' not found (OS errno 13 - Permission denied)
+2018-12-26T09:24:45.861324Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T09:24:45.862369Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T09:24:50.160557Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:24:50.160904Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2018-12-26T09:24:50.165280Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+mysqld: File './binlog.index' not found (OS errno 13 - Permission denied)
+2018-12-26T09:24:50.167688Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T09:24:50.168985Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T09:24:57.591294Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:24:57.591621Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2018-12-26T09:24:57.596125Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+mysqld: File './binlog.index' not found (OS errno 13 - Permission denied)
+2018-12-26T09:24:57.598095Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T09:24:57.599110Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T09:25:11.372353Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:25:11.372899Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2018-12-26T09:25:11.377286Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+mysqld: File './binlog.index' not found (OS errno 13 - Permission denied)
+2018-12-26T09:25:11.379771Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T09:25:11.380863Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T09:25:38.081648Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:25:38.082009Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2018-12-26T09:25:38.086775Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+mysqld: File './binlog.index' not found (OS errno 13 - Permission denied)
+2018-12-26T09:25:38.090460Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T09:25:38.091631Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T09:26:30.259284Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:26:30.259618Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T09:26:30.265509Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2018-12-26T09:26:31.747277Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 13 in a file operation.
+2018-12-26T09:26:31.749789Z 1 [ERROR] [MY-012595] [InnoDB] The error means mysqld does not have the access rights to the directory.
+2018-12-26T09:26:31.753474Z 1 [ERROR] [MY-013183] [InnoDB] Assertion failure: fil0fil.cc:2460:success thread 140380199171840
+InnoDB: We intentionally generate a memory trap.
+InnoDB: Submit a detailed bug report to http://bugs.mysql.com.
+InnoDB: If you get repeated assertion failures or crashes, even
+InnoDB: immediately after the mysqld startup, there may be
+InnoDB: corruption in the InnoDB tablespace. Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/8.0/en/forcing-innodb-recovery.html
+InnoDB: about forcing recovery.
+09:26:31 UTC - mysqld got signal 6 ;
+This could be because you hit a bug. It is also possible that this binary
+or one of the libraries it was linked against is corrupt, improperly built,
+or misconfigured. This error can also be caused by malfunctioning hardware.
+Attempting to collect some information that could help diagnose the problem.
+As this is a crash and something is definitely wrong, the information
+collection process might fail.
+
+key_buffer_size=8388608
+read_buffer_size=131072
+max_used_connections=0
+max_threads=151
+thread_count=1
+connection_count=0
+It is possible that mysqld could use up to 
+key_buffer_size + (read_buffer_size + sort_buffer_size)*max_threads = 67846 K  bytes of memory
+Hope that's ok; if not, decrease some variables in the equation.
+
+Thread pointer: 0x55fefe79bfa0
+Attempting backtrace. You can use the following information to find out
+where mysqld died. If you see no messages after this, something went
+terribly wrong...
+stack_bottom = 7faccfe7ae08 thread_stack 0x46000
+/usr/sbin/mysqld(my_print_stacktrace(unsigned char*, unsigned long)+0x2e) [0x55fefbcfbade]
+/usr/sbin/mysqld(handle_fatal_signal+0x4c1) [0x55fefaf6d171]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x110c0) [0x7facd32a50c0]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0xcf) [0x7facd153afff]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x16a) [0x7facd153c42a]
+/usr/sbin/mysqld(ut_dbg_assertion_failed(char const*, char const*, unsigned long)+0x2c7) [0x55fefbf97437]
+/usr/sbin/mysqld(Fil_shard::open_file(fil_node_t*, bool)+0x2e5) [0x55fefc0a63c5]
+/usr/sbin/mysqld(Fil_shard::open_system_tablespaces(unsigned long, unsigned long*)+0x108) [0x55fefc0a6728]
+/usr/sbin/mysqld(Fil_system::open_all_system_tablespaces()+0x44) [0x55fefc0a6a44]
+/usr/sbin/mysqld(+0x1ded313) [0x55fefbf3c313]
+/usr/sbin/mysqld(srv_start(bool, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)+0x166f) [0x55fefbf415ff]
+/usr/sbin/mysqld(+0x1c9181a) [0x55fefbde081a]
+/usr/sbin/mysqld(dd::bootstrap::DDSE_dict_init(THD*, dict_init_mode_t, unsigned int)+0x86) [0x55fefbc96a86]
+/usr/sbin/mysqld(dd::bootstrap::initialize(THD*)+0x7a) [0x55fefbc9d28a]
+/usr/sbin/mysqld(+0xec97eb) [0x55fefb0187eb]
+/usr/sbin/mysqld(+0x204da2f) [0x55fefc19ca2f]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x7494) [0x7facd329b494]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7facd15f0acf]
+
+Trying to get some variables.
+Some pointers may be invalid and cause the dump to abort.
+Query (0): Connection ID (thread ID): 1
+Status: NOT_KILLED
+
+The manual page at http://dev.mysql.com/doc/mysql/en/crashing.html contains
+information that should help you find out what is causing the crash.
+2018-12-26T09:27:32.646819Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:27:32.647256Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T09:27:32.650896Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T09:27:32.653320Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T09:27:32.653478Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T09:27:32.654723Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T09:29:15.860327Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:29:15.860591Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T09:29:15.867645Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2018-12-26T09:29:17.581050Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 13 in a file operation.
+2018-12-26T09:29:17.581503Z 1 [ERROR] [MY-012595] [InnoDB] The error means mysqld does not have the access rights to the directory.
+2018-12-26T09:29:17.581623Z 1 [ERROR] [MY-013183] [InnoDB] Assertion failure: fil0fil.cc:2460:success thread 140231822542592
+InnoDB: We intentionally generate a memory trap.
+InnoDB: Submit a detailed bug report to http://bugs.mysql.com.
+InnoDB: If you get repeated assertion failures or crashes, even
+InnoDB: immediately after the mysqld startup, there may be
+InnoDB: corruption in the InnoDB tablespace. Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/8.0/en/forcing-innodb-recovery.html
+InnoDB: about forcing recovery.
+09:29:17 UTC - mysqld got signal 6 ;
+This could be because you hit a bug. It is also possible that this binary
+or one of the libraries it was linked against is corrupt, improperly built,
+or misconfigured. This error can also be caused by malfunctioning hardware.
+Attempting to collect some information that could help diagnose the problem.
+As this is a crash and something is definitely wrong, the information
+collection process might fail.
+
+key_buffer_size=8388608
+read_buffer_size=131072
+max_used_connections=0
+max_threads=151
+thread_count=1
+connection_count=0
+It is possible that mysqld could use up to 
+key_buffer_size + (read_buffer_size + sort_buffer_size)*max_threads = 67846 K  bytes of memory
+Hope that's ok; if not, decrease some variables in the equation.
+
+Thread pointer: 0x55da4c3fdfa0
+Attempting backtrace. You can use the following information to find out
+where mysqld died. If you see no messages after this, something went
+terribly wrong...
+stack_bottom = 7f8a43f7fe08 thread_stack 0x46000
+/usr/sbin/mysqld(my_print_stacktrace(unsigned char*, unsigned long)+0x2e) [0x55da49fa7ade]
+/usr/sbin/mysqld(handle_fatal_signal+0x4c1) [0x55da49219171]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x110c0) [0x7f8a473aa0c0]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0xcf) [0x7f8a4563ffff]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x16a) [0x7f8a4564142a]
+/usr/sbin/mysqld(ut_dbg_assertion_failed(char const*, char const*, unsigned long)+0x2c7) [0x55da4a243437]
+/usr/sbin/mysqld(Fil_shard::open_file(fil_node_t*, bool)+0x2e5) [0x55da4a3523c5]
+/usr/sbin/mysqld(Fil_shard::open_system_tablespaces(unsigned long, unsigned long*)+0x108) [0x55da4a352728]
+/usr/sbin/mysqld(Fil_system::open_all_system_tablespaces()+0x44) [0x55da4a352a44]
+/usr/sbin/mysqld(+0x1ded313) [0x55da4a1e8313]
+/usr/sbin/mysqld(srv_start(bool, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)+0x166f) [0x55da4a1ed5ff]
+/usr/sbin/mysqld(+0x1c9181a) [0x55da4a08c81a]
+/usr/sbin/mysqld(dd::bootstrap::DDSE_dict_init(THD*, dict_init_mode_t, unsigned int)+0x86) [0x55da49f42a86]
+/usr/sbin/mysqld(dd::bootstrap::initialize(THD*)+0x7a) [0x55da49f4928a]
+/usr/sbin/mysqld(+0xec97eb) [0x55da492c47eb]
+/usr/sbin/mysqld(+0x204da2f) [0x55da4a448a2f]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x7494) [0x7f8a473a0494]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7f8a456f5acf]
+
+Trying to get some variables.
+Some pointers may be invalid and cause the dump to abort.
+Query (0): Connection ID (thread ID): 1
+Status: NOT_KILLED
+
+The manual page at http://dev.mysql.com/doc/mysql/en/crashing.html contains
+information that should help you find out what is causing the crash.
+2018-12-26T09:29:18.996563Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:29:18.996964Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T09:29:19.004822Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T09:29:19.006410Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T09:29:19.006576Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T09:29:19.008036Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T09:29:20.525736Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:29:20.526172Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T09:29:20.530005Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T09:29:20.532174Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T09:29:20.532798Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T09:29:20.535252Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T09:29:22.052091Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:29:22.052330Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T09:29:22.055232Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T09:29:22.056362Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T09:29:22.056580Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T09:29:22.057917Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T09:29:23.698536Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:29:23.698838Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T09:29:23.705255Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T09:29:23.706251Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T09:29:23.706445Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T09:29:23.707961Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T09:29:26.144105Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:29:26.144380Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T09:29:26.149583Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T09:29:26.151715Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T09:29:26.151909Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T09:29:26.153445Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T09:29:30.111849Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:29:30.112174Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T09:29:30.115362Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T09:29:30.116627Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T09:29:30.116760Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T09:29:30.118010Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T09:29:37.281135Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:29:37.281557Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T09:29:37.285033Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T09:29:37.286505Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T09:29:37.286574Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T09:29:37.288420Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T09:29:50.865026Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:29:50.865385Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.13) initializing of server in progress as process 28
+2018-12-26T09:29:50.868814Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2018-12-26T09:29:50.870106Z 0 [ERROR] [MY-013236] [Server] Newly created data directory /var/lib/mysql/ is unusable. You can safely remove it.
+2018-12-26T09:29:50.870247Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-12-26T09:29:50.871487Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T09:43:22.694114Z 0 [ERROR] [MY-011945] [InnoDB] Cannot open '/var/lib/mysql/ib_buffer_pool.incomplete' for writing: No such file or directory
+2018-12-26T09:43:23.818272Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-26T09:43:27.470143Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:43:27.472157Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2018-12-26T09:43:29.521777Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2018-12-26T09:43:29.545085Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2018-12-26T09:43:29.661319Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-12-26T09:43:29.688118Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-12-26T09:43:29.716300Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T09:43:29.717021Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T09:43:29.718334Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T09:43:29.719154Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T09:43:29.719669Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T09:43:29.720068Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T09:43:29.720774Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T09:43:29.749062Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T09:43:29.749898Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T09:43:29.769622Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2018-12-26T09:43:29.981659Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2018-12-26T09:56:38.154760Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-26T09:56:38.156994Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2018-12-26T09:56:40.433585Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2018-12-26T09:56:40.467341Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2018-12-26T09:56:40.603583Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-12-26T09:56:40.626299Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-12-26T09:56:40.660350Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T09:56:40.660906Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T09:56:40.661325Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T09:56:40.661758Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T09:56:40.662262Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T09:56:40.662668Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T09:56:40.663115Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T09:56:40.678067Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T09:56:40.678674Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-12-26T09:56:40.700336Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2018-12-26T09:56:40.892141Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2018-12-27T02:03:04.930171Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-27T02:03:04.935633Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2018-12-27T02:03:06.389494Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2018-12-27T02:03:06.401956Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2018-12-27T02:03:06.508043Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-12-27T02:03:06.535954Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-12-27T02:03:06.559246Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:03:06.559728Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:03:06.560333Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:03:06.560705Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:03:06.561027Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:03:06.561385Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:03:06.561763Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:03:06.572274Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:03:06.572663Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:03:06.584458Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2018-12-27T02:03:06.622135Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2018-12-27T02:24:24.689361Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-27T02:24:24.691959Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2018-12-27T02:24:26.312898Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2018-12-27T02:24:26.327103Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2018-12-27T02:24:26.450003Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-12-27T02:24:26.475266Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-12-27T02:24:26.505145Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:24:26.506044Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:24:26.507048Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:24:26.508300Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:24:26.509072Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:24:26.509694Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:24:26.510277Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:24:26.532623Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:24:26.533303Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:24:26.555066Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2018-12-27T02:24:26.757764Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2018-12-27T02:31:06.168293Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-27T02:31:06.172403Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2018-12-27T02:31:08.088401Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2018-12-27T02:31:08.099672Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2018-12-27T02:31:08.212035Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-12-27T02:31:08.230242Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-12-27T02:31:08.265330Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:31:08.266210Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:31:08.266918Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:31:08.267547Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:31:08.268070Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:31:08.268647Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:31:08.269314Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:31:08.282085Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:31:08.282517Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T02:31:08.308322Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2018-12-27T02:31:08.579797Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060
+2018-12-27T03:16:27.706466Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.13)  MySQL Community Server - GPL.
+2018-12-27T03:16:39.682577Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2018-12-27T03:16:39.683508Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.13) starting as process 1
+2018-12-27T03:16:41.253910Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-12-27T03:16:41.275438Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-12-27T03:16:41.295744Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.infoschema@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T03:16:41.296196Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T03:16:41.296665Z 0 [Warning] [MY-010315] [Server] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T03:16:41.297072Z 0 [Warning] [MY-010315] [Server] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T03:16:41.297609Z 0 [Warning] [MY-010323] [Server] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T03:16:41.298001Z 0 [Warning] [MY-010323] [Server] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T03:16:41.298398Z 0 [Warning] [MY-010311] [Server] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T03:16:41.317846Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T03:16:41.318222Z 0 [Warning] [MY-010330] [Server] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-12-27T03:16:41.331779Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.13'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2018-12-27T03:16:41.595881Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060

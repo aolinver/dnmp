@@ -1,64 +1,261 @@
-version: "3"
+version: '3'
 services:
-  nginx:
+  dev_nginx:
     build: ./build/nginx
-    container_name: dnginx
+    image: dev/nginx_stable
+    container_name: dev_nginx
     restart: unless-stopped
     ports:
       - "80:80"
       - "443:443"
     volumes:
-      - ./www/:/var/www/html/:rw
-      - ./conf/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
-      - ./conf/nginx/conf.d/:/etc/nginx/conf.d/:ro
-      - ./log/nginx/:/var/log/nginx/:rw
-    networks:
-      - net-php
+      - ../code:/var/www/html
+      - ./conf/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./conf/nginx/conf.d:/etc/nginx/conf.d
+      - ./logs/nginx/:/var/log/nginx
+    links:
+      - dev_php56
+      - dev_php70
+      - dev_php71
+      - dev_php72
+      - dev_php73
 
-  php:
-    build: ./build/php/
-    container_name: dphp
+  dev_php56:
+    build: ./build/php/php56
+    image: dev/php56
+    container_name: dev_php56
     restart: unless-stopped
-    expose:
-      - "9000"
     volumes:
-      - ./www/:/var/www/html/:rw
-      - ./conf/php/php.ini:/usr/local/etc/php/php.ini:ro
-      - ./conf/php/php-fpm.conf:/usr/local/etc/php-fpm.d/www.conf:rw
-      - ./log/php/:/var/log/php7/:rw
-    networks:
-      - net-php
-      - net-mysql
-      - net-redis
+      - ../code:/var/www/html
+      - ./conf/php/php56/php/php.ini:/usr/local/etc/php/php.ini
+      - ./conf/php/php56/php/conf.d:/usr/local/etc/php/conf.d
+      - ./conf/php/php56/php-fpm.conf:/usr/local/etc/php-fpm.conf
+      - ./conf/php/php56/php-fpm.d:/usr/local/etc/php-fpm.d
+      - ./logs/php/php56:/usr/local/var/log
+    links:
+      - dev_mysql56
+      - dev_mysql57
+      - dev_mysql80
 
-  mysql:
-    build: ./build/mysql
-    container_name: dmysql
+  dev_php70:
+    build: ./build/php/php70
+    image: dev/php70
+    container_name: dev_php70
+    restart: unless-stopped
+    volumes:
+      - ../code:/var/www/html
+      - ./conf/php/php70/php/php.ini:/usr/local/etc/php/php.ini
+      - ./conf/php/php70/php/conf.d:/usr/local/etc/php/conf.d
+      - ./conf/php/php70/php-fpm.conf:/usr/local/etc/php-fpm.conf
+      - ./conf/php/php70/php-fpm.d:/usr/local/etc/php-fpm.d
+      - ./logs/php/php70:/usr/local/var/log
+    links:
+      - dev_mysql56
+      - dev_mysql57
+      - dev_mysql80
+
+  dev_php71:
+    build: ./build/php/php71
+    image: dev/php71
+    container_name: dev_php71
+    restart: unless-stopped
+    volumes:
+      - ../code:/var/www/html
+      - ./conf/php/php71/php/php.ini:/usr/local/etc/php/php.ini
+      - ./conf/php/php71/php/conf.d:/usr/local/etc/php/conf.d
+      - ./conf/php/php71/php-fpm.conf:/usr/local/etc/php-fpm.conf
+      - ./conf/php/php71/php-fpm.d:/usr/local/etc/php-fpm.d
+      - ./logs/php/php71:/usr/local/var/log
+    links:
+      - dev_mysql56
+      - dev_mysql57
+      - dev_mysql80
+
+  dev_php72:
+    build: ./build/php/php72
+    image: dev/php72
+    container_name: dev_php72
+    restart: unless-stopped
+    volumes:
+      - ../code:/var/www/html
+      - ./conf/php/php72/php/php.ini:/usr/local/etc/php/php.ini
+      - ./conf/php/php72/php/conf.d:/usr/local/etc/php/conf.d
+      - ./conf/php/php72/php-fpm.conf:/usr/local/etc/php-fpm.conf
+      - ./conf/php/php72/php-fpm.d:/usr/local/etc/php-fpm.d
+      - ./logs/php/php72:/usr/local/var/log
+    links:
+      - dev_mysql56
+      - dev_mysql57
+      - dev_mysql80
+
+  dev_php73:
+    build: ./build/php/php73
+    image: dev/php73
+    container_name: dev_php73
+    restart: unless-stopped
+    volumes:
+      - ../code:/var/www/html
+      - ./conf/php/php73/php/php.ini:/usr/local/etc/php/php.ini
+      - ./conf/php/php73/php/conf.d:/usr/local/etc/php/conf.d
+      - ./conf/php/php73/php-fpm.conf:/usr/local/etc/php-fpm.conf
+      - ./conf/php/php73/php-fpm.d:/usr/local/etc/php-fpm.d
+      - ./logs/php/php73:/usr/local/var/log
+    links:
+      - dev_mysql56
+      - dev_mysql57
+      - dev_mysql80
+
+  dev_mysql56:
+    build: ./build/mysql/mysql56
+    image: dev/mysql56
+    container_name: dev_mysql56
     restart: unless-stopped
     ports:
-      - "3306:3306"
-    volumes:
-      - ./conf/mysql/mysql.cnf:/etc/mysql/conf.d/mysql.cnf:ro
-      - ./data/mysql/:/var/lib/mysql/:rw
-    networks:
-      - net-mysql
+      - "3356:3306"
     environment:
-      MYSQL_ROOT_PASSWORD: "123456"
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: dev_db
+      MYSQL_USER: deb_db
+      MYSQL_PASSWORD: dev_db
+    volumes:
+      - ./conf/mysql/mysql56:/etc/mysql/conf.d
+      - ./data/mysql/mysql56:/var/lib/mysql
+      - ./logs/mysql/mysql56:/var/log/mysql
 
-  redis:
-    build: ./build/redis
-    container_name: dredis
+  dev_mysql57:
+    build: ./build/mysql/mysql57
+    image: dev/mysql57
+    container_name: dev_mysql57
     restart: unless-stopped
     ports:
-      - "6379:6379"
-    networks:
-      - net-redis
+      - "3357:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: dev_db
+      MYSQL_USER: deb_db
+      MYSQL_PASSWORD: dev_db
     volumes:
-    - ./conf/redis/redis.conf:/etc/redis/redis.conf:ro
-    - ./log/redis/:/var/log/redis/:rw
-    - ./data/redis/:/data/:rw
+      - ./conf/mysql/mysql57:/etc/mysql/conf.d
+      - ./data/mysql/mysql57:/var/lib/mysql
+      - ./logs/mysql/mysql57:/var/log/mysql
 
-networks:
-  net-php:
-  net-mysql:
-  net-redis:
+  dev_mysql80:
+    build: ./build/mysql/mysql80
+    image: dev/mysql80
+    container_name: dev_mysql80
+    restart: unless-stopped
+    ports:
+      - "3380:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: dev_db
+      MYSQL_USER: deb_db
+      MYSQL_PASSWORD: dev_db
+    volumes:
+      - ./conf/mysql/mysql80:/etc/mysql/conf.d
+      - ./data/mysql/mysql80:/var/lib/mysql
+      - ./logs/mysql/mysql80:/var/log/mysql
+
+  dev_postgres9:
+    build: ./build/postgres/postgres9
+    image: dev/postgres9
+    container_name: dev_postgres9
+    restart: unless-stopped
+    environment:
+      POSTGRES_PASSWORD: dev_db
+      POSTGRES_USER: dev_db
+      POSTGRES_DB: dev_db
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - "54309:5432"
+    volumes:
+      - ./data/postgres/postgres9:/var/lib/postgresql/data/pgdata
+
+  dev_postgres10:
+    build: ./build/postgres/postgres10
+    image: dev/postgres10
+    container_name: dev_postgres10
+    restart: unless-stopped
+    environment:
+      POSTGRES_PASSWORD: dev_db
+      POSTGRES_USER: dev_db
+      POSTGRES_DB: dev_db
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - "54310:5432"
+    volumes:
+      - ./data/postgres/postgres10:/var/lib/postgresql/data/pgdata
+
+  dev_postgres11:
+    build: ./build/postgres/postgres11
+    image: dev/postgres11
+    container_name: dev_postgres11
+    restart: unless-stopped
+    environment:
+      POSTGRES_PASSWORD: dev_db
+      POSTGRES_USER: dev_db
+      POSTGRES_DB: dev_db
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - "54311:5432"
+    volumes:
+      - ./data/postgres/postgres11:/var/lib/postgresql/data/pgdata
+
+  dev_redis4:
+    build: ./build/redis/redis4
+    image: dev/redis4
+    container_name: dev_redis4
+    restart: unless-stopped
+    ports:
+      - "63794:6379"
+    volumes:
+      - ./conf/redis/redis4:/usr/local/etc/redis
+      - ./data/redis/redis4:/data
+      - ./logs/redis/redis4:/var/log/redis
+
+  dev_redis5:
+    build: ./build/redis/redis5
+    image: dev/redis5
+    container_name: dev_redis5
+    restart: unless-stopped
+    ports:
+      - "63795:6379"
+    volumes:
+      - ./conf/redis/redis5:/usr/local/etc/redis
+      - ./data/redis/redis5:/data
+      - ./logs/redis/redis5:/var/log/redis
+
+  dev_mongo3:
+    build: ./build/mongo/mongo3
+    image: dev/mongo3
+    container_name: dev_mongo3
+    restart: always
+    ports:
+      - "27317:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+    volumes:
+      - ./conf/mongo/mongo3:/data/configdb
+      - ./data/mongo/mongo3:/data/db
+
+  dev_mongo4:
+    build: ./build/mongo/mongo4
+    image: dev/mongo4
+    container_name: dev_mongo4
+    restart: always
+    ports:
+      - "27417:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+    volumes:
+      - ./conf/mongo/mongo4:/data/configdb
+      - ./data/mongo/mongo4:/data/db
+
+  dev_memcached:
+    image: memcached:alpine
+    container_name: dev_memcached
+    restart: always
+    ports:
+      - "11211:11211"

@@ -1,0 +1,28 @@
+[client]
+default-character-set = utf8mb4
+
+[mysqld]
+# from docker.cnf
+skip-host-cache
+skip-name-resolve
+
+default-storage-engine = InnoDB
+
+character-set-client-handshake = FALSE
+character-set-server           = utf8mb4
+collation-server               = utf8mb4_unicode_ci
+init_connect                   = 'SET NAMES utf8mb4'
+
+log-error            = /var/log/mysql/error.log
+slow_query_log       = 1
+long_query_time      = 3
+slow-query-log-file  = /var/log/mysql/slow-query.log
+
+[mysql]
+default-character-set = utf8mb4
+
+[mysqldump]
+from mysqldump.cnf
+quick
+quote-names
+max_allowed_packet = 16M
