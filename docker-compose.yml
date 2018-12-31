@@ -1,4 +1,9 @@
 version: '3'
+
+networks:
+  backend:
+  frontend:
+
 services:
   dev_nginx:
     build: ./build/nginx
@@ -19,6 +24,8 @@ services:
       - dev_php71
       - dev_php72
       - dev_php73
+    networks:
+      - frontend
 
   dev_php56:
     build: ./build/php/php56
@@ -36,6 +43,9 @@ services:
       - dev_mysql56
       - dev_mysql57
       - dev_mysql80
+    networks:
+      - backend
+      - frontend
 
   dev_php70:
     build: ./build/php/php70
@@ -53,6 +63,9 @@ services:
       - dev_mysql56
       - dev_mysql57
       - dev_mysql80
+    networks:
+      - backend
+      - frontend
 
   dev_php71:
     build: ./build/php/php71
@@ -70,6 +83,9 @@ services:
       - dev_mysql56
       - dev_mysql57
       - dev_mysql80
+    networks:
+      - backend
+      - frontend
 
   dev_php72:
     build: ./build/php/php72
@@ -87,6 +103,9 @@ services:
       - dev_mysql56
       - dev_mysql57
       - dev_mysql80
+    networks:
+      - backend
+      - frontend
 
   dev_php73:
     build: ./build/php/php73
@@ -104,6 +123,9 @@ services:
       - dev_mysql56
       - dev_mysql57
       - dev_mysql80
+    networks:
+      - backend
+      - frontend
 
   dev_mysql56:
     build: ./build/mysql/mysql56
@@ -121,6 +143,8 @@ services:
       - ./conf/mysql/mysql56:/etc/mysql/conf.d
       - ./data/mysql/mysql56:/var/lib/mysql
       - ./logs/mysql/mysql56:/var/log/mysql
+    networks:
+      - backend
 
   dev_mysql57:
     build: ./build/mysql/mysql57
@@ -138,6 +162,8 @@ services:
       - ./conf/mysql/mysql57:/etc/mysql/conf.d
       - ./data/mysql/mysql57:/var/lib/mysql
       - ./logs/mysql/mysql57:/var/log/mysql
+    networks:
+      - backend
 
   dev_mysql80:
     build: ./build/mysql/mysql80
@@ -155,6 +181,8 @@ services:
       - ./conf/mysql/mysql80:/etc/mysql/conf.d
       - ./data/mysql/mysql80:/var/lib/mysql
       - ./logs/mysql/mysql80:/var/log/mysql
+    networks:
+      - backend
 
   dev_postgres9:
     build: ./build/postgres/postgres9
@@ -170,6 +198,8 @@ services:
       - "54309:5432"
     volumes:
       - ./data/postgres/postgres9:/var/lib/postgresql/data/pgdata
+    networks:
+      - backend
 
   dev_postgres10:
     build: ./build/postgres/postgres10
@@ -185,6 +215,8 @@ services:
       - "54310:5432"
     volumes:
       - ./data/postgres/postgres10:/var/lib/postgresql/data/pgdata
+    networks:
+      - backend
 
   dev_postgres11:
     build: ./build/postgres/postgres11
@@ -200,6 +232,8 @@ services:
       - "54311:5432"
     volumes:
       - ./data/postgres/postgres11:/var/lib/postgresql/data/pgdata
+    networks:
+      - backend
 
   dev_redis4:
     build: ./build/redis/redis4
@@ -212,6 +246,8 @@ services:
       - ./conf/redis/redis4:/usr/local/etc/redis
       - ./data/redis/redis4:/data
       - ./logs/redis/redis4:/var/log/redis
+    networks:
+      - backend
 
   dev_redis5:
     build: ./build/redis/redis5
@@ -224,6 +260,8 @@ services:
       - ./conf/redis/redis5:/usr/local/etc/redis
       - ./data/redis/redis5:/data
       - ./logs/redis/redis5:/var/log/redis
+    networks:
+      - backend
 
   dev_mongo3:
     build: ./build/mongo/mongo3
@@ -238,6 +276,8 @@ services:
     volumes:
       - ./conf/mongo/mongo3:/data/configdb
       - ./data/mongo/mongo3:/data/db
+    networks:
+      - backend
 
   dev_mongo4:
     build: ./build/mongo/mongo4
@@ -252,6 +292,8 @@ services:
     volumes:
       - ./conf/mongo/mongo4:/data/configdb
       - ./data/mongo/mongo4:/data/db
+    networks:
+      - backend
 
   dev_memcached:
     image: memcached:alpine
@@ -259,3 +301,5 @@ services:
     restart: always
     ports:
       - "11211:11211"
+    networks:
+      - backend
